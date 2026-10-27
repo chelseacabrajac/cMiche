@@ -279,7 +279,9 @@
         .profile-container {
             width: 100%; 
             max-width: 500px; 
-            margin: -580px -512px 24px auto; 
+            margin: -880px -512px 24px auto; 
+            position: relative;
+            top: -12px;
             text-align: right; 
             display: flex; 
             justify-content: right;
@@ -580,6 +582,16 @@ body {
 
         transform 1.6s cubic-bezier(0.4, 0, 0.2, 1);
 
+}/* Preserve space for the complete biography */
+@media (min-width: 769px) {
+    .cv-container {
+        padding-bottom: 400px;
+    }
+
+    .cv-outer {
+        min-height: 100vh;
+        height: auto;
+    }
 }
     </style>
 </head>
@@ -590,9 +602,8 @@ body {
         <div class="header-content">
         <div class="header-right">
             <nav class="header-nav">
-            <a href="intro.html" class="header-link active">About Me</a>
-            <a href="cv.html" class="header-link">CV</a>
-            <a href="projects.html" class="header-link">Projects</a>
+            <a href="intro.html" class="header-link active">About</a>
+            <a href="cv.html" class="header-link">Disciplines</a>
           </nav>
           <div class="header-icons">
             <a href="mailto:cmiche.vin@gmail.com" class="header-icon" title="Email">
@@ -615,11 +626,12 @@ body {
     <div class="cv-outer">
       <div class="cv-container">
       <div class="text-animate" style="margin-bottom: 30px; text-align: left; font-size: 0.90em; margin-top: 40px; line-height: 1.4;">
-        Chelsea is multicultural and multifaceted by design, with a deep passion for travel, culinary culture, and the ways people connect through place and experience. Her journey has been shaped by high-performance athletics, public service, analytical training, and an enduring curiosity about the world.<br><br>
-        As a dual-sport NCAA Division I athlete and professional volleyball player, Chelsea developed the discipline, resilience, and composure required to perform at an elite level. That foundation led to nearly a decade as a professional firefighter and paramedic with the Long Beach Fire Department, where she served on some of the nation’s busiest resources and became trusted to make consequential decisions in complex, high-pressure environments.<br><br>
-        Her instinct for solving difficult problems later drew her to data science. After completing the TripleTen Data Science program, Chelsea developed proficiency in Python, SQL, data visualization, and machine learning. This analytical foundation continues to shape how she understands systems, recognizes patterns, and approaches new challenges.<br><br>
-        Now based in New York City, Chelsea is continuing to expand her perspective through the study of wine, culture, and hospitality. She holds the WSET Level 3 Award in Wines with Merit and is currently a candidate in pursuing the WSET Diploma. Her experiences abroad have deepened her appreciation for craftsmanship, regional identity, tradition, and the power of hospitality to create meaningful connections.<br><br>
-        Chelsea brings together operational judgment, analytical thinking, global perspective, creativity, and a natural ability to connect with people. Rather than being defined by a single title or industry, she is drawn to ambitious environments where discretion, adaptability, relationship-building, and thoughtful problem-solving creates lasting value.
+        Chelsea Cabrajac is multicultural and multifaceted by design. Her perspective has been shaped by an unconventional intersection of disciplines, cultures, and experiences, with a curiosity that has never been confined to a single pursuit. Drawn equally to complexity and beauty, she moves between worlds with an appreciation for what lies beneath the surface.<br><br>
+        A former dual-sport NCAA Division I athlete and professional volleyball player, Chelsea’s early years were defined by discipline, competition, and international experience. She went on to spend nearly a decade as a firefighter and paramedic with the Long Beach Fire Department, serving in demanding environments where composure, intuition, and sound judgment were essential.<br><br>
+        Her intellectual curiosity later led her to data science, completing the TripleTen program with a focus on Python, SQL, machine learning, and analytical problem-solving. This technical foundation complements her instinctive approach to understanding people, systems, and the world around her.<br><br>
+        Now based in New York City, Chelsea continues her exploration of wine, culture, and hospitality. She holds the WSET Level 3 Award in Wines with Merit and is pursuing the WSET Diploma. Her appreciation for wine extends beyond the glass to the craftsmanship, geography, history, and commerce that shape the industry.<br><br>
+        Across these seemingly distinct disciplines runs a consistent thread: an ability to observe, adapt, and find connection where others might see contrast. Equally comfortable navigating complex environments and unfamiliar cultures, Chelsea brings an unusual combination of analytical precision, creative instinct, and emotional intelligence to the way she experiences the world. She values authenticity over convention, substance over appearances, and the quiet significance of relationships built on mutual curiosity and respect.<br><br>
+        Her interests continue to evolve, unconstrained by geography, profession, or expectation. Guided by independence, discernment, and an enduring appetite for discovery, she remains drawn to the people, places, and ideas that challenge perspective and invite a deeper understanding of the world. For Chelsea, the most compelling possibilities are often those that have yet to reveal themselves.
         <br>
       </div>
     <div class="profile-container">
